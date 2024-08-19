@@ -35,8 +35,8 @@ public class LoginStepDefinition {
 		LoginPage.getBtnLogin().click();
 	    
 	}
-	@Then("je me redirige vers la page de home")
-	public void jeMeRedirigeVersLaPageDeHome() {
+	@Then("je me redirige vers la page de home (string)")
+	public void jeMeRedirigeVersLaPageDeHome(String text) {
 	    
 	}
 

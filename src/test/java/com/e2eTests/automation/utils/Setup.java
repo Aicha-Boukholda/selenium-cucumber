@@ -32,7 +32,7 @@ public class Setup {
 		LOGGER.info("Scenario: " + scenario.getName() + "- started");
 		String browser = System.getProperty("browser");
 		if (browser == null) {
-			browser = "firefox";
+			browser = "chrome";
 		}
 
 		switch (browser) {
